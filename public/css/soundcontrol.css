@@ -1,0 +1,44 @@
+.soundcontrol {
+    color: white;
+    background: blueviolet;
+    padding: 1rem;
+    border: 0;
+    border-radius: 2rem;
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    margin: auto;
+  }
+  
+  .soundcontrol:focus {
+    outline-width: 1px;
+    outline-style: dashed;
+    outline-color: fuchsia;
+  }
+  
+  .soundcontrol:hover {
+    cursor: pointer;
+    background: fuchsia;
+  }
+  
+  .soundcontrol {
+    position: relative;
+    overflow: hidden;
+  }
+  .soundcontrol-content {
+    z-index: 200;
+  }
+  .soundcontrol-progress {
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.25);
+    z-index: 100;
+    transition-property: width;
+  }
+  .soundcontrol-progress.playing {
+    width: 100%;
+  }
