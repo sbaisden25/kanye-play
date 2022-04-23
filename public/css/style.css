@@ -123,11 +123,11 @@
     color: white;
     text-align: center;
     background-color: #212529;
-    padding-top: 25px;
+    padding-top: 10px;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    height: 100px;
+    height: 70px;
     width: 100%;
 }
 
