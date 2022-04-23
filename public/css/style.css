@@ -125,7 +125,7 @@
     background-color: #212529;
     padding-top: 25px;
     color: white;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     height: 100px;
     width: 100%;
