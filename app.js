@@ -1,5 +1,10 @@
 const express = require('express')
+
 const path = require('path');
+
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
 
 const app = express()
 const port = process.env.PORT || 3000 // Heroku will need the PORT environment variable
