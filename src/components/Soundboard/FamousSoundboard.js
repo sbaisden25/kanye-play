@@ -128,7 +128,7 @@ return (
 <audio data-key="y" src="sounds/famous/ivelovedyou.mp3"></audio>
 
 <audio data-key="u" src="sounds/famous/Idontblame.mp3"></audio>
-<audio data-key="i" src="sounds/famous/Ijustwanted.mp3"></audio>
+<audio data-key="i" src="sounds/famous/ijustwanted.mp3"></audio>
 
 <audio data-key="o" src="sounds/famous/madethat.mp3"></audio>
 
