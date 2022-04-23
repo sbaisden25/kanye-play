@@ -1,5 +1,4 @@
 .main-container {
-    min-height: 100vh;
     overflow: hidden;
     display: block;
     position: relative;
@@ -125,7 +124,7 @@
     background-color: #212529;
     padding-top: 10px;
     color: white;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     height: 70px;
     width: 100%;
