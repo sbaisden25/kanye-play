@@ -26,7 +26,6 @@ function App() {
 
           <Route path="/goodmorning" element={<GoodMorning />} />
           
-
         </Routes>
 
       <Footer />
